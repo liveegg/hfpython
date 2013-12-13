@@ -1,4 +1,4 @@
 hfpython
 ========
 
-Excercise Head First Python
+Exercise Head First Python
