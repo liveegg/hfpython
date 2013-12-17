@@ -1,0 +1,13 @@
+# Compiled source
+*.class
+*.pyc
+
+*.zip
+
+*.log
+*.pickle
+
+.DS_Store
+
+__MACOSX/
+__pycache__/
