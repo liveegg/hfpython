@@ -1,4 +1,3 @@
-
 import pickle
 
 from athletelist import AthleteList
@@ -33,3 +32,8 @@ def get_from_store():
     except IOError as ioerr:
         print('File error (get_from_store): ' + str(ioerr))
     return(all_athletes)
+
+def get_names_from_store():
+    athletes = get_from_store()
+    names = [athletes[each_ath].name for each_ath in athletes]
+    return(names)
